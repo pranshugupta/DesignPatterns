@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BuilderLibrary.BaseLibrary.Vehicle">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAIABAAAAAAAAAAAABAgAAAAAgAA=</HashCode>
+      <FileName>BaseLibrary\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderLibrary.BaseLibrary.VehicleManufacturer">
+    <Position X="7.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACEAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseLibrary\VehicleManufacturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderLibrary.Builders.HondaBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAAAAAAAAgAAAAAJAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>Builders\HondaBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BuilderLibrary.Builders.SuzukiBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAAAAAAAAgAAAAAJAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>Builders\SuzukiBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="BuilderLibrary.BaseLibrary.IVehicleBuilder">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAAAAAAAAgAAAAAJAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BaseLibrary\IVehicleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

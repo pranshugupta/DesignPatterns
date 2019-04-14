@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BridgeLibrary.BaseLibrary.Message">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAMABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseLibrary\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BridgeLibrary.ImplementationLibrary.MessageImplementation.SystemMessage" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationLibrary\MessageImplementation\SystemMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BridgeLibrary.ImplementationLibrary.MessageImplementation.UserMessage" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationLibrary\MessageImplementation\UserMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BridgeLibrary.ImplementationLibrary.MessageSenderImplementation.EmailSender" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationLibrary\MessageSenderImplementation\EmailSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BridgeLibrary.ImplementationLibrary.MessageSenderImplementation.MSMQSender" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationLibrary\MessageSenderImplementation\MSMQSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BridgeLibrary.ImplementationLibrary.MessageSenderImplementation.WebServiceSender" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementationLibrary\MessageSenderImplementation\WebServiceSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="BridgeLibrary.BaseLibrary.IMessageSender">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseLibrary\IMessageSender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
